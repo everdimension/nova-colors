@@ -5,7 +5,8 @@
     "start": "scripts/start",
     "test": "scripts/test",
     "build": "scripts/build",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "showroom": "webpack-dev-server"
   },
   "jest": {
     "testEnvironment": "node"
@@ -13,11 +14,14 @@
   "devDependencies": {
     "babel-cli": "6.16.0",
     "babel-jest": "15.0.0",
+    "babel-loader": "6.2.10",
     "babel-plugin-transform-object-rest-spread": "6.16.0",
     "babel-preset-latest": "6.16.0",
     "eslint": "3.4.0",
     "jest-cli": "15.1.1",
-    "watch": "1.0.1"
+    "watch": "1.0.1",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2"
   },
   "main": "build/index.js",
   "description": "Single source of truth to consume Nova color values",
